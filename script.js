@@ -1,6 +1,3 @@
-
-
-
 const number = document.querySelector('#number')
 const networkImg = document.getElementById("netImg")
 
@@ -33,11 +30,6 @@ function myFunction(){
         }
     }
 }
-
-
-
-import startApp from './app.mjs';
-
-document.addEventListener('DOMContentLoaded', startApp); 
-
-
+function clearButton(){
+    document.getElementById("number").value = ""
+}

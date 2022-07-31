@@ -1,19 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name of chosen challenge</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phonie</title>
+  <!-- style css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
 </head>
-<body>
-    
-    <h2>make some magic here!!</h2>
 
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
-    <script src="index.mjs" type="module"></script>
-    <!-- // ============= EEND DO NOT EDIT ============== // -->
+<body>
+  <!-- nav -->
+
+  <nav id="nav" class="side-nav">
+    <!-- logo container -->
+    <div class="logo-container">
+      <div class="side-logo">
+        <img src="./images/Top_logo.jpg" alt="logo">
+      </div>
+      <div class="side-btn">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+
+    <!-- end of logo container -->
+
+    <ul class="side-nav-container">
+      <div class="side-nav-links">
+        <li>network</li>
+        <li><a href="#">glo</a></li>
+        <li><a href="#">mtn</a></li>
+        <li><a href="#"> 9mobile</a></li>
+        <li><a href="#">airtel</a></li>
+      </div>
+    </ul>
+  </nav>
+  <!-- end of nav -->
+  <!-- main -->
+  <main>
+    <nav class="nav-top">
+
+      <div class="nav-btn">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+
+      <form>
+        <label for="phone" class="phone">Phone number</label>
+        <input type="number" onchange="myFunction()" id="number" placeholder="entre your phone number" required>
+      </form>
+
+      <button id="clear" onclick="clearButton()">clear</button>
+
+      <div class="nav-img">
+        <img id="netImg" src="./images/Body_logo.jpg" alt="image">
+        <h3>phonie</h3>
+      </div>
+
+      <a href="#" class="sign-out">logout</a>
+
+    </nav>
+    <!-- line list -->
+    <section class="line-list">
+      <h1>line list</h1>
+      <div class="line-list-center">
+
+        <article class="list-item">
+          <div class="list-item-img">
+            <img src="./images/Glo_logo.png" alt="line">
+          </div>
+          <div class="list-item-text">
+            <h3>glo</h3>
+            <h4>line</h4>
+          </div>
+        </article>
+        <article class="list-item">
+          <div class="list-item-img">
+            <img src="./images/Airtel_logo.png" alt="line">
+          </div>
+          <div class="list-item-text">
+            <h3>airtel</h3>
+            <h4>line</h4>
+          </div>
+        </article>
+        <article class="list-item">
+          <div class="list-item-img">
+            <img src="./images/mtn.png" alt="line">
+          </div>
+          <div class="list-item-text">
+            <h3>mtn</h3>
+            <h4>line</h4>
+          </div>
+        </article>
+        <article class="list-item">
+          <div class="list-item-img">
+            <img src="./images/9mobile.png" alt="line">
+          </div>
+          <div class="list-item-text">
+            <h3>9mobile</h3>
+            <h4>line</h4>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end of line list -->
+
+    <div class="footer">
+      <footer>
+        <p>Phonie by circle 19&copy;AltSchoolAfrica, 2022.All rights reserved</p>
+      </footer>
+
+    </div>
+
+  </main>
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
+  <script src="index.mjs" type="module" defer></script>
+
+  <!-- // ============= EEND DO NOT EDIT ============== // -->
 </body>
+
 </html>

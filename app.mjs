@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 function startApp() {
     // Your entire app should not necessarily be coded inside this 
     // single function (though there's no penalty for that), 
