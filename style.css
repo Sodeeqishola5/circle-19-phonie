@@ -109,6 +109,15 @@ body{
 .nav-top input::placeholder{
     color: #a1a2a1;
 }
+
+select {
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid #f15025;
+    border-radius: 5px;
+    color: #272727; 
+}
+
 #clear {
     padding: 5px;
     font-size: 15px;
