@@ -25,6 +25,7 @@ body{
 .side-btn {
     align-self: center;
     border: 3px solid #272727 ;
+  cursor: pointer;
 }
 
 .bar1,
@@ -85,7 +86,7 @@ body{
 /* ==================================== */
 
 .nav-top{
-    height: 104px;
+    height: 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -191,11 +192,11 @@ main{
         display: none;
     }
     .side-logo {
-        height: 104px;
+        height: 130px;
     }
     .side-logo img {
-        height: 80px;
-        width: 150px;
+        height: 110px;
+        width: 180px;
         margin-top: 10px;
     }
     .side-nav-container {
