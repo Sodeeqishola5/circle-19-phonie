@@ -1,3 +1,9 @@
+
+ $(".side-btn").click(function () {
+        $(".side-nav-links").slideToggle(3000)
+    })
+
+
 const number = document.querySelector('#number')
 const networkImg = document.getElementById("netImg")
 
@@ -30,6 +36,8 @@ function myFunction(){
         }
     }
 }
+
+
 function clearButton(){
     document.getElementById("number").value = ""
 }
